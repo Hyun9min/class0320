@@ -1,4 +1,4 @@
-import 'package:daelim_2025/presentation/home/home_screen.dart';
+import 'package:daelim_2025/presentation/start/start_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
       ),
-      home: const HomeScreen(),
+      home: const StartScreen(),
     );
   }
 }
